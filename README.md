@@ -6,3 +6,23 @@ Built for use with the "Shell commands" community plugin, ex:
 ```ps1
 ./update_htb_info_and_image.ps1 {{title}} {{file_path:absolute}} <replace_with_path_to_location_of_obsidian_assets_folder>
 ```
+
+Designed to work with the following YAML attributes:
+
+Example pre-fill:
+```
+---
+_image:
+_os:
+_difficulty:
+---
+```
+
+Example post-fill:
+```
+---
+_image: "[[htb_active.png]]"
+_os: windows
+_difficulty: easy
+---
+```
