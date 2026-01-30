@@ -1,5 +1,6 @@
 # obsidian-scrape-htb-info
 PowerShell script to scrape Hack The Box machine OS, difficulty, and image, and import into an Obsidian note's YAML frontmatter.
+Accepts three arguments: box name, absolute path of Markdown file, absolute path of Obsidian assets folder
 
 Built for use with the "Shell commands" community plugin, ex:
 
